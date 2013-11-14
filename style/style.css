@@ -1,0 +1,862 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+*
+
+{
+
+	margin:0px; padding:0px; border:0px;
+
+}
+
+body
+
+{
+
+		min-height:715px;
+
+		height:auto;
+
+		font-family:Arial, Helvetica, sans-serif;
+
+		background-color:#d9d9d9;
+
+}
+
+.reignSoftWrapper
+
+{
+
+	width:1024px;
+
+	min-height:820px;
+
+	height:auto;
+
+	margin:0 auto;
+
+	background-color:#FFF;
+
+	
+
+}
+
+.reignSoftWrapperRetail
+
+{
+
+	width:1024px;
+
+	min-height:1115px;
+
+	height:auto;
+
+	margin:0 auto;
+
+	background-color:#FFF;	
+
+}
+
+.reignSoftWrapperInventory
+
+{
+
+	width:1024px;
+
+	min-height:1175px;
+
+	height:auto;
+
+	margin:0 auto;
+
+	background-color:#FFF;	
+
+}
+
+.reignSoftHeader
+
+{
+
+	width:1024px;
+
+	height:49px;
+
+	background:url(../images/header-bg_02.jpg) repeat-x;
+
+	margin:0 auto;
+
+}
+
+.reignSoftHeaderContainer
+
+{
+
+	width:100%;
+
+	height:49px;
+
+	background:url(../images/header-bg_02.jpg) repeat-x;
+
+	float:left;
+
+}
+
+.reignSoftHeaderLogo
+
+{
+
+	background:url(../images/reign-soft-logo.jpg);
+
+	width:96px;
+
+	height:47px;
+
+	float:left;
+
+	margin-left:20px;
+
+}
+
+.reignSoftHeaderMenuContainer
+
+{
+
+	width:425px;
+
+	height:46px;
+
+	float:right;
+
+}
+
+.reignSoftHeaderMenu
+
+{
+
+	float:left;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:14px;
+
+	color:#050505;
+
+	width:100%;
+
+	min-height:20px;
+
+	height:auto;
+
+
+
+}
+
+.reignSoftHeaderMenu ul 
+
+{
+
+	width:100%;
+
+	float:left;
+
+	margin-top:16px;
+
+}
+
+.reignSoftHeaderMenu ul li
+
+{
+
+	list-style:none;
+
+	list-style-type:none;
+
+	float:left;
+
+}
+
+.reignSoftHeaderMenu ul li a
+
+{
+
+	text-decoration:none;
+
+	color:#050505;
+
+}
+
+.reignSoftHeaderMenuSeparator
+
+{
+
+	margin:-8px 17px 0px 17px;
+
+	background:url(../images/separetor.jpg);
+
+	width:1px;
+
+	height:33px;
+
+	float:left;
+
+}
+
+.reignSoftHeaderBanner
+
+{
+
+	width:959px;
+
+	height:244px;
+
+	float:left;
+
+	margin:6px 0px 0px 29px;
+	z-index:9999;
+
+}
+
+.reignSoftContentContainer
+
+{
+
+	width:995px; min-height:457px; height:auto; float:left; margin-left:29px; margin-top:10px;
+
+}
+
+..reignSoftWelcome p
+
+	{
+
+		font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#515151;
+
+	}
+
+.reignSoftContentContainer  h1
+
+{
+
+}
+
+.reignSoftContentTopBorderContainer
+
+{
+
+	width:959px;
+
+	height:22px;
+
+	float:left;
+
+}
+
+.reignSoftContentborder
+
+{
+
+	float:left;
+
+	background:url(../images/content-top-border.jpg) repeat-x; width:915px; height:8px; margin-top:1px;
+
+}
+
+.reignSoftContentLeftborder
+
+{
+
+	float:left; background: url(../images/left-curve.jpg); width:19px; height:22px;
+
+}
+
+.reignSoftContentRightborder
+
+{
+
+		float:left; background: url(../images/right-curve.jpg); width:19px; height:22px;
+
+}
+
+.reignSoftWelcome
+
+{
+
+	float:left; width:938px; min-height:38px; height: auto; font-family:"PT Serif"; font-style:italic; font-size:14px; color:#515151; margin:0px 0px 0px 14px;
+
+}
+
+.reignSoftWelcome p
+
+{
+
+	font-size:14px; ffont-family:"PT Serif"; font-style:italic; color:#515151; line-height:18px; float:left; margin-bottom:10px;
+
+}
+
+.reignSoftReadMore
+
+{
+
+/*	background: url(../images/read-more.png);*/
+
+	font-size:12px;
+
+	width: 72px;
+
+	height: 20px;
+
+	float: right;
+
+	margin-right: 40px;
+
+	margin-top: 10px;
+
+	color:#EB564E;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.reignServiceInfocontent
+
+{
+
+	width:310px; min-height:123px; float:left; margin-left:10px; opacity:1; height:auto;
+
+}
+
+.reignServiceInfocontentunwanted:hover
+
+{
+
+	width:305px; height:175px; float:left; margin-left:10px; opacity:1;
+
+}
+
+
+
+.reignServiceInfoContainer
+
+{
+
+	width:961px; min-height:175px; float:left; margin-top:10px; height:auto;
+
+}
+
+.reignServiceInfoContainer P
+
+{
+
+	font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#515151; margin-top:10px; line-height:18px;
+
+}
+
+.reignServiceContainer
+
+{
+
+	width:961px; min-height:365px; float:left; margin-top:10px; height:auto;
+
+}
+
+.reignServiceLeftSection
+
+{
+
+	width:248px; height:292px; float:left; border-right:1px dashed #ccc; 
+
+}
+
+html, body
+
+{
+
+	height:100%;
+
+}
+
+body .reignSoftWrapper, .reignSoftWrapperRetail
+
+{
+
+	height:100%;
+
+}
+
+.reignSoftHeaderContainerTwo
+
+{
+
+	float:left; width:309px; min-height:20px; height:auto;
+
+}
+
+.reignSoftHeaderContainerTwo a
+
+{
+
+	text-decoration:none;
+
+}
+
+.reignServiceInfoDescribtion
+
+{
+
+	float:left; font-size:14px; color:#515151; margin-top:10px; width:297px; min-height:90px; height:auto; font-family:  "PT Serif"; font-style:italic; 
+
+}
+
+.reignSoftHeaderContainerTwoTitle
+
+{
+
+	float:left; width:100%; font-size:22px; color:#515151; font-family:"lobster 1.3"; font-style:italic;
+
+}
+
+.reginSoftFooterFull
+
+{
+
+	width:100%; height:218px; background-color:#1b1b1b; /*bottom:0px; position:relative;*/ float:left;
+
+}
+
+
+
+.reginSoftFooter
+
+{
+
+	width:1024px; height:218px; background-color:#1b1b1b; margin:0 auto;
+
+}
+
+.reginSoftFooterContentContainer
+
+{
+
+	width:919px; height:131px; float:left; margin:41px 0px 0px 60px;
+
+}
+
+.reginSoftFooterMenuContaienr
+
+{
+
+	width:162px; height:132px; float:left;
+
+}
+
+.reginSoftFooterMenuTitle
+
+{
+
+	font-size:16px; color:#c2c2c2; float:left; margin:5px 0px 0px 7px; font-weight:bold; width:164px;
+
+}
+
+.reginSoftFooterMenuTitle a
+
+{
+
+	color:#c2c2c2; text-decoration:none;
+
+}
+
+.reginSoftFooterMenuSubTitle
+
+{
+
+	font-size:12px; color:#5a5a5a; float:left; margin:23px 0px 0px 7px; width:100%;
+
+}
+
+.reginSoftFooterMenuSubTitleTwo
+
+{
+
+	font-size:12px; color:#5a5a5a; float:left; margin:10px 0px 0px 7px; width:100%;
+
+}
+
+.reginSoftFooterMenuSubTitleTwo a
+
+{
+
+	text-decoration:none; color:#5a5a5a;
+
+}
+
+.reginSoftFooterMenuSubTitle a
+
+{
+
+	color:#5a5a5a; text-decoration:none;
+
+}
+
+.reginSoftBigLogo
+
+{
+
+	float:left; width:380px; height:102px;
+
+}
+
+.reginSoftServicesContent
+
+{
+
+	float:left; font-family:"PT Serif"; font-size:14px; line-height:18px; color:#515151; width:490px; margin-left:20px; font-style:italic;
+
+}
+
+.reginSoftServicesContent_New
+
+{
+
+	font-family:Arial, Helvetica, sans-serif; font-size:18px; float:left; margin:18px 0px 0px 0px; line-height:18px; color:#515151; width:490px; font-style:normal;
+
+}
+
+.reginSoftServicesContent p
+
+{
+
+	float:left; margin-top:20px;
+
+}
+
+.reginSoftServicesContent ul
+
+{
+
+	float:left; margin-top:12px;
+
+}
+
+.reginSoftServicesContent li
+
+{
+
+	float:left; margin-left:20px; list-style-type:square;
+
+}
+
+
+
+/*8888888888888 left navigation 8888888888888888888888888
+
+
+
+div#nav {
+
+clear: both;
+
+float: left;
+
+width: 164px;
+
+margin-right: 5px;
+
+}
+
+div#nav .skip-links {
+
+margin: 0;
+
+padding: 0;
+
+list-style: none;
+
+}
+
+.skip-links {
+
+position: absolute;
+
+top: 10px;
+
+left: 10px;
+
+z-index: 999;
+
+width: 300px;
+
+}
+
+div#nav .skip-links li {
+
+display: inline;
+
+}
+
+div#nav .skip-links {
+
+list-style: none;
+
+}
+
+div#nav .skip-links a {
+
+position: absolute;
+
+top: 0;
+
+left: -99999px;
+
+}
+
+
+
+a:visited {
+
+color: #003768;
+
+}
+
+a:link, a:visited, a:hover, a:active {
+
+color: #003768;
+
+text-decoration: underline;
+
+}
+
+ul#mainnav {
+
+margin: 0;
+
+padding: 0;
+
+list-style: none;
+
+font-weight: normal;
+
+overflow: hidden;
+
+text-align:left;
+
+}
+
+.homeLink {
+
+background: #7d6a55;
+
+}
+
+ul#mainnav li a {
+
+margin-left: 10px;
+
+padding: 6px 8px 6px 8px;
+
+text-decoration: none;
+
+display: block;
+
+background: #EFE9E5;
+
+}
+
+
+
+ul#mainnav > li > a {
+
+border-left: 1px solid white;
+
+}
+
+ul#mainnav li a {
+
+font-size: 1.1em;
+
+padding: 0px 0px 10px 20px;
+
+display: block;
+
+text-decoration: none;
+
+color: #003768;
+
+}
+
+a:link, a:visited, a:hover, a:active {
+
+color: #003768;
+
+text-decoration: underline;
+
+}
+
+ul#mainnav li.public {
+
+background: #008039;
+
+}
+
+
+
+
+
+ <div id="nav">
+
+				
+
+				<ul class="skip-links">
+
+				    <li><a href="#content" accesskey="S">Skip navigation and jump to content</a></li>
+
+				</ul>
+
+				
+
+				<!-- MAIN NAV -->
+
+				<ul id="mainnav"><li class="homeLink"><a href="/" accesskey="1">Home</a></li><li class="open public"><a href="/for_the_public.aspx">For the public</a></li><li class="open organisations"><a href="/for_organisations.aspx">For organisations</a></li><li class="open whatwecover active has_ul"><a href="/what_we_cover.aspx">What we cover</a><ul style="display: block;"><li><a href="/what_we_cover/legislation.aspx">Legislation</a></li><li><a href="/what_we_cover/taking_action.aspx">Taking action</a></li><li><a href="/what_we_cover/register_of_data_controllers.aspx">Register of data controllers</a></li><li class="double"><a href="/what_we_cover/audits_advisory_visits_and_self_assessments.aspx">Audits, advisory visits and self assessments</a></li><li><a href="/what_we_cover/handling_complaints.aspx">Handling complaints</a></li><li><a href="/what_we_cover/monitoring_compliance.aspx">Monitoring compliance</a></li><li><a href="/what_we_cover/international_duties.aspx">International duties</a></li></ul></li><li class="open aboutus"><a href="/about_us.aspx">About the ICO</a></li><li class="open media"><a href="/news.aspx">News and events</a></li><li class="open tools"><a href="/enforcement.aspx">Enforcement</a></li><li class="open complaints"><a href="/complaints.aspx" accesskey="7">Complaints</a></li><li class="careers"><a href="http://www.ico.jobs" target="_blank" title="External link, opens in new window">Jobs</a></li><li class="youth"><a href="/youth.aspx">Young people</a></li></ul>
+
+				
+
+				<!-- TOOLS NAV -->
+
+				<div id="sitetoolsnav">
+
+					<ul><li><a href="/Global/site_tour.aspx">Site tour</a><span></span></li><li><a href="/Global/sitemap.aspx" accesskey="3">Sitemap</a><span></span></li><li><a href="/tools_and_resources/publication_scheme_compliance.aspx">ICO's publication<br> scheme compliance</a></li></ul>
+
+				</div>
+
+
+
+                
+
+                <a href="http://facebook.com/ICOnews" target="_blank" class="social"><img src="/upload/images/icons/facebook_28px.gif" alt="Click here to follow us at facebook.com/ICOnews"></a>
+
+                <a href="http://twitter.com/iconews" target="_blank" class="social"><img src="/upload/images/icons/twitter_28px.gif" alt="Click here to follow us at twitter.com/iconews"></a>
+
+                <a href="http://linkedin.com/company/information-commissioner's-office" target="_blank" class="social"><img src="/upload/images/icons/linkedin_28px.gif" alt="Click here to follow us at linkedin.com/company/information-commissioner's-office"></a>
+
+                <a href="http://www.youtube.com/user/icocomms" target="_blank" class="social"><img src="/upload/images/icons/youtube_28px.gif" alt="Click here to follow us at youtube.com/user/icocomms/feed"></a>
+
+                <br>
+
+                <a href="http://www.browsealoud.com/page.asp?pg_id=70004" target="_blank"><img src="/upload/images/icons/browsaloud_133x43px.gif" alt="This website is speech enabled. If you have problems reading this website please click here to download the screen reader."></a>
+
+                <br>
+
+
+
+
+
+			</div>
+
+			
+
+			*/
+
+			
+
+#menu8 {
+
+ width: 250px; 
+
+ }
+
+
+
+#menu8 ul {
+
+ list-style: none;
+
+ margin: 0;
+
+ padding: 0;
+
+ }
+
+
+
+#menu8 img {
+
+border: none;
+
+}
+
+
+
+#menu8 li a {
+
+ height: 32px;
+
+   voice-family: inherit;
+
+ text-decoration: none;
+
+ }
+
+
+
+#menu8 li a:link, #menu8 li a:visited {
+
+ color: #656556;
+
+ display: block;
+
+
+
+/* padding: 8px 0 0 20px;*/
+
+ }
+
+ #menu8 ul li
+
+ {
+
+	 width:250px;
+
+	 height:40px;
+
+ }
+
+#menu8 ul li:hover
+
+{
+
+ background:url(../images/vertical-meu-bg.png);
+
+ height:40px;
+
+ width:250px;
+
+
+
+}
+
+#menu8 li a:hover, #menu8 li #current {
+
+ color: #474739;
+
+ background:url(../images/vertical-meu-bg.png);
+
+ height:40px;
+
+ width:250px;
+
+ /* padding: 8px 0 0 20px;*/
+
+ }			
+ 
+ 
+ #baner{
+ width:959px;
+float:left;
+ max-height:800px;
+ margin-left:30px;
+ }
+ 
+.clear {
+	clear:both;
+}

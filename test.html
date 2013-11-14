@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Reignsoft</title>
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<link href="style/style_DropDown.css" rel="stylesheet" type="text/css" />
+
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript">
+              $(function() {
+				/**
+				 * the menu
+				 */
+				var $menu = $('#ldd_menu');
+				
+				/**
+				 * for each list element,
+				 * we show the submenu when hovering and
+				 * expand the span element (title) to 510px
+				 */
+				$menu.children('li').each(function(){
+					var $this = $(this);
+					var $span = $this.children('span');
+					$span.data('width',$span.width());
+					
+					$this.bind('mouseenter',function(){
+						$menu.find('.ldd_submenu').stop(true,true).hide();
+						$span.stop().animate(300,function(){
+							$this.find('.ldd_submenu').slideDown(300);
+						}
+						);
+					}).bind('mouseleave',function(){
+						$this.find('.ldd_submenu').stop(true,true).hide();
+						$span.stop().animate({'width':$span.data('width')+'px'},300);
+					});
+				});
+            });
+        </script>	  
+</head>
+
+<body>
+<!--header part -->
+<div class="reignSoftHeaderContainer">
+    <div class="reignSoftHeader">
+    	<div class="reignSoftHeaderLogo"></div>
+        <div class=" reignSoftHeaderMenuContainer">
+        	<div class="reignSoftHeaderMenu">
+            	<ul>
+                	<li><a href="index.html">Home</a></li>
+                    	<li><div class="reignSoftHeaderMenuSeparator"></div></li>
+                    <li><a href="about-us.html">about us</a></li>
+                    	<li><div class="reignSoftHeaderMenuSeparator"></div></li>
+                    <!--<li><a href="services.html">service</a></li>-->
+					<li>
+						<div class="test">
+							<ul id="ldd_menu" class="ldd_menu">
+								<li>
+								<span>test</span>
+									<div class="ldd_submenu">
+										<ul>
+											<li class="ldd_heading">By Location</li>
+											<li><a href="#">South America</a></li>
+											<li><a href="#">Antartica</a></li>
+											<li><a href="#">Africa</a></li>
+											<li><a href="#">Asia and Australia</a></li>
+											<li><a href="#">Europe</a></li>
+										</ul>										
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+                    	<li><div class="reignSoftHeaderMenuSeparator"></div></li>
+                    <li><a href="contact-us.php">contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>    
+    <!-- end of header part -->
+	</body>
+</html>	

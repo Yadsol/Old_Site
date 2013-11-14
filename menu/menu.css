@@ -1,0 +1,52 @@
+/* ######### Matt Black Strip Main Menu Bar CSS ######### */
+
+.mattblackmenu ul{
+margin: 0; padding: 0; font: bold 12px Verdana; list-style-type: none; overflow: hidden; width: 100%; }
+
+.mattblackmenu li{
+display: inline; margin: 0; float:left; }
+
+.mattblackmenu li img{
+margin-top:5px; }
+.mattblackmenu li a{
+float: left; display: block; line-height:22px; font-weight:normal; text-decoration: none; margin: 0; padding: 11px 23px; color:#050505; }
+
+.mattblackmenu li a:hover{
+background:url(../../images/menu-bg-h.jpg) repeat-x; color:#000; }
+
+.mattblackmenu a.selected{
+background:url(../../images/menu-bg-h.jpg) repeat-x; color:#000; }
+
+#b1 .mattblackmenu li.current1 a,
+#b2 .mattblackmenu li.current2 a,
+#b3 .mattblackmenu li.current3 a,
+#b4 .mattblackmenu li.current4 a,
+#b5 .mattblackmenu li.current5 a,
+#b6 .mattblackmenu li.current6 a,
+#b7 .mattblackmenu li.current7 a {
+background:url(../../images/menu-bg-h.jpg) repeat-x; color:#000; }
+
+/* ######### Drop Down ULs CSS ######### */
+
+.ddsubmenustyle, .ddsubmenustyle ul{ /*topmost and sub ULs, respectively*/
+font: normal 12px Verdana; margin: 0; padding: 0; position: absolute; left: 0; top: 0; list-style-type: none;  border-bottom-width: 0; visibility: hidden; z-index: 100; margin-top:0px;}
+
+.ddsubmenustyle li a{
+display: block; width: 200px; color: #000; background-color: #E8ECED; text-decoration: none; padding: 8px 5px; border-bottom: 1px solid #DEDEDE; margin-top:0px; font-weight:normal;}
+
+* html .ddsubmenustyle li{ 
+display: inline-block; width: 200px; }
+
+.ddsubmenustyle li a:hover{
+background-color: #BB261F; color: #fff; }
+
+/* ######### Neutral CSS  ######### */
+
+.downarrowpointer{ /*CSS for "down" arrow image added to top menu items*/
+padding-left: 5px; border: 0; }
+
+.rightarrowpointer{ /*CSS for "right" arrow image added to drop down menu items*/
+position: absolute; padding-top: 3px; left: 100px; border: 0; }
+
+.ddiframeshim {
+background: none repeat scroll 0 0 transparent; border-width: 0; display: none; height: 0; position: absolute; width: 0; z-index: 500; }
